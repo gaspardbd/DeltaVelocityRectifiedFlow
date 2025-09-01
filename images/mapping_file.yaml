@@ -1,0 +1,78 @@
+- input_img: images/a_cat_sitting_on_a_table.png
+  source_prompt: A cat sitting on a table.
+  target_prompts:
+  - A lion sitting on a table.
+  target_codes:
+  - Lion
+- input_img: images/fence-flowers.jpg
+  source_prompt: Hand offering zinnias through a wooden fence.
+  target_prompts:
+  - Hand offering sunflowers through a wooden fence.
+  target_codes:
+  - fence-flowers
+- input_img: images/gas_station.png
+  source_prompt: A gas station with a white and red sign that
+    reads "CAFE" There are several cars parked in front of the gas station, including
+    a white car and a van.
+  target_prompts:
+  - A gas station with a white and red sign that
+    reads "SHY" There are several cars parked in front of the gas station, including
+    a yellow car and a van.
+  target_codes:
+  - shy
+- input_img: images/lighthouse.png
+  source_prompt: The image features a tall white lighthouse standing prominently
+    on a hill, with a beautiful blue sky in the background. The lighthouse is illuminated
+    by a bright light, making it a prominent landmark in the scene.
+  target_prompts:
+  - The image features Big ben clock tower standing prominently
+    on a hill, with a beautiful blue sky in the background. The Big ben clock tower is illuminated
+    by a bright light, making it a prominent landmark in the scene.
+- input_img: images/fallow-deer.jpg
+  source_prompt: Spotted deer resting in green grass.
+  target_prompts:
+  - Spotted zebra resting in green grass.
+  target_codes:
+  - fallow-deer
+- input_img: images/city-street.jpg
+  source_prompt: Empty street with autumn trees and buildings.
+  target_prompts:
+  - Empty street with autumn trees and buildings with a rainbow.
+  target_codes:
+  - city-street
+- input_img: images/mountain-climber.jpg
+  source_prompt: Climber silhouette on rocky peak.
+  target_prompts:
+  - Goat silhouette climbing on rocky peak.
+  target_codes:
+  - mountain-climber
+- input_img: images/lucerne-bridge.jpg
+  source_prompt: Wooden bridge over calm river at sunset.
+  target_prompts:
+  - Wooden bridge over calm river at sunset covered in a snow forest.
+  target_codes:
+  - lucerne-bridge
+- input_img: images/mountain-lake.jpg
+  source_prompt: Mountain lake with clear water and misty peaks.
+  target_prompts:
+  - Mountain lake with clear water and misty peaks and a sail boat.
+  target_codes:
+  - mountain-lake
+- input_img: images/silver_cat.jpg
+  source_prompt: a cat sitting next to a mirror
+  target_prompts:
+  - a silver cat sculpture sitting next to a mirror
+  target_codes:
+  - cat
+- input_img: images/welcome-paris.jpg
+  source_prompt: Man with a neutral face holding a sign that says Welcome to PARIS at an airport.
+  target_prompts:
+  - Man with a neutral face holding a sign that says Welcome to NY at an airport.
+  target_codes:
+  - welcome-paris
+- input_img: images/road-closed-cone.jpg
+  source_prompt: Road closed sign on a street with traffic cones.
+  target_prompts:
+  - Road closed sign on a snowy street with traffic cones.
+  target_codes:
+  - road-closed-cone

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+outputs/
+.dsym/
+.DS_Store
+.env
+.venv/
+dvrf_env/
+.idea/
+.vscode/
+*.egg-info/
+build/
+dist/
