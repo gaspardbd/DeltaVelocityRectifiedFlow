@@ -13,6 +13,28 @@ DVRF is a text-guided image editing method that optimizes the latent of a pre-tr
 
 ---
 
+### Method
+
+The DVRF objective optimizes the latent by aligning the target velocity with the source velocity while introducing a progressively increasing coupling term. See the method schematic:
+
+![DVRF Method](assets/DVRF.png)
+
+---
+
+### Results
+
+Selected qualitative results demonstrating localized edits and structure preservation:
+
+![DVRF Results](assets/DVRF_results.png)
+
+Additional comparisons:
+
+![DVRF Comparison 1](assets/DVRF_comparaison.png)
+
+![DVRF Comparison 2](assets/DVRF_comparaison2.png)
+
+---
+
 ### Installation
 
 Clone the repo:
