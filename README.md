@@ -13,9 +13,35 @@ DVRF is a text-guided image editing method that optimizes the latent of a pre-tr
 
 ---
 
+### Repository Structure
+```
+DeltaVelocityRectifiedFlow/
+├── assets/                     # Paper figures and results
+│   ├── DVRF.png               # Method schematic
+│   ├── DVRF_results.png       # Qualitative results
+│   ├── DVRF_comparaison.png   # Comparison results 1
+│   └── DVRF_comparaison2.png  # Comparison results 2
+├── images/                     # Example images and dataset config
+│   ├── mapping_file.yaml      # Dataset configuration
+│   ├── a_cat_sitting_on_a_table.png
+│   ├── city-street.jpg
+│   ├── fallow-deer.jpg
+│   ├── ...
+├── models/                     # Core DVRF implementation
+│   ├── __init__.py
+│   └── DVRF.py                # Main DVRF algorithm
+├── edit.py                     # Main script for running experiments
+├── exp.yaml                    # Experiment configuration
+├── dvrf_environment.yml        # Conda environment
+├── .gitignore                  # Git ignore rules
+└── README.md                   # This file
+```
+
+---
+
 ### Method
 
-The DVRF objective optimizes the latent by aligning the target velocity with the source velocity while introducing a progressively increasing coupling term. See the method schematic:
+The DVRF objective optimizes the latent by aligning the target velocity with the source velocity, inspired by the Dela Denoising Score for diffusions models. We further introduce a shift term to improve editing performance, and propose Delta Velocity Rectified Flow (DVRF), a trajectory-driven editing objective that operates in the velocity space of rectified flows. DVRF obtains state-of-the-art results on the PIE Benchmark. See the method schematic:
 
 ![DVRF Method](assets/DVRF.png)
 
